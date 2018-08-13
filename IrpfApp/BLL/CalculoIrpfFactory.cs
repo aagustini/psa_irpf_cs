@@ -13,7 +13,7 @@ namespace IrpfApp.BLL
                 case TipoCalculo.SIMPLIFICADO:
                     return new CalculoIrpfSimplificado();
                 case TipoCalculo.COMPLETO:
-                    return null; // new CalculoIrpfCompleto();
+                    return new CalculoIrpfCompleto();
             }
             return null;
         }
